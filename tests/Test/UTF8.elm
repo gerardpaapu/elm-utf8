@@ -17,8 +17,10 @@ toSingleByte =
 tests : Test
 tests =
     suite "UTF-8 Encoding/Decoding"
-        [{- test "foo" <|
-            assertEqual foo <|
-                sha256sum "foo"
-         -}
+        [ test "UTF-8 to Unicode" <|
+            assertEqual "æ ø å ñ" <|
+                toMultiByte "Ã¦ Ã¸ Ã¥ Ã±"
+        , test "Unicode to UTF-8" <|
+            assertEqual "Ã¦ Ã¸ Ã¥ Ã±" <|
+                toSingleByte "æ ø å ñ"
         ]
