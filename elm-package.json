@@ -1,5 +1,5 @@
 {
-    "version": "0.0.1",
+    "version": "1.0.0",
     "summary": "Encode/decode between multi-byte Unicode & UTF-8 multiple single-byte encoding",
     "repository": "https://github.com/spisemisu/elm-utf8.git",
     "license": "MIT",

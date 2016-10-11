@@ -1,5 +1,5 @@
 {
-    "version": "0.0.1",
+    "version": "1.0.0",
     "summary": "Tests for UTF-8 encode/decode library",
     "repository": "https://github.com/spisemisu/elm-utf8.git",
     "license": "MIT",
